@@ -1,0 +1,101 @@
+body {
+    font-family: "Century Gothic", helvetica, arial, sans-serif;
+}
+
+/* Layout */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.wrapper {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+}
+.profil {
+    flex: 1;
+}
+.content {
+    flex: 2;
+}
+
+
+
+
+/* Responsive */
+
+
+
+/* Decoration */
+
+body {
+    margin: 0;  
+    align-items: center;  
+}
+.cvMain {
+    margin-top: 20px;
+    width: 1200px;
+    box-shadow: 0px 0px 8px  #aaa;
+}
+.blocColor {
+    background:#869DC1;
+    height: 4em;
+}
+.profil {
+    background: #192D3D;
+    padding: 40px;
+    color: #fff;   
+}
+h2, h3{
+    margin-bottom: 5px;
+}
+.profil p {
+    margin-top: 5px; 
+} 
+.profil img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.content {
+    padding: 20px;
+    padding-left: 38px;
+}
+.content ul{
+    padding-bottom: 35px;
+}
+.profil ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 10px;   
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.profil .slash {
+    font-size: 0.8em;
+    color: #869DC1;
+    padding-right: 10px;
+}
+.blockName {
+    padding-bottom: 62px;
+}
+.blockName p {
+    color: #a5a5a5;
+}
+.blockName h1 {
+    color: #636363;
+}
+.blockName h2 {
+    color: #869DC1;
+}
+.experience .blue2, .formation .blue2 {
+    color: #0055df;
+}
+
+
